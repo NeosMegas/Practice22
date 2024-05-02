@@ -28,7 +28,7 @@ namespace Practice22
                 return 0;
             //string tempValue = value;
             value = PrepareString(value, delimeter);
-            Console.WriteLine("Prepared string = {0}", value);
+            //Console.WriteLine("Prepared string = {0}", value);
             ulong tempBytes = value[0] == '-' ? 9223372036854775808 : 0;
             if (value[0] == '-') value = value.Substring(1);
             bool lessThanOne = value[0] == '0';
